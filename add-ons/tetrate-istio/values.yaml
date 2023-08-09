@@ -1,6 +1,6 @@
 global:
   hub: containers.istio.tetratelabs.com
-  tag: 1.12.2-tetratefips-v0
+  tag: 1.18.1-tetratefips-v0
 
 base: {}
 
