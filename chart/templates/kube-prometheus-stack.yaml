@@ -23,7 +23,7 @@ spec:
         {{- toYaml .Values.kubePrometheusStack | nindent 10 }}
   destination:
     server: {{ .Values.destinationServer | default "https://kubernetes.default.svc" }}
-    namespace: kube-prometheus-stack
+    namespace: istio-system
   syncPolicy:
     automated:
       prune: true
